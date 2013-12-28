@@ -16,7 +16,7 @@ library(MASS)
 library(MCMCglmm)
 
 ## graphing with tikz
-library(tikzDevice)
+#library(tikzDevice)
 
 ## random forests
 library(randomForest)
@@ -194,9 +194,9 @@ p.mean.rating <- ggplot(raw.mean, aes(x=verb, y=mean-4, fill=ptype, ymax=cihi, y
                  scale_x_discrete(name='')
 
 ## write the mean ratings graph to a TikZ file
-tikz('~/PartialControl/analysis/plots/rawmeanrating.tikz', width=6.5, height=4)
-p.mean.rating
-dev.off()
+#tikz('~/PartialControl/analysis/plots/rawmeanrating.tikz', width=6.5, height=4)
+#p.mean.rating
+#dev.off()
 
 
 ###############
@@ -290,9 +290,9 @@ p.fixed <- ggplot(verb.collective.fixed.effects, aes(x=verb.ordered, y=mode, yma
            scale_x_discrete(name='')
 
 ## write the "filtered ratings" to a TikZ file
-tikz('~/PartialControl/analysis/plots/filtered.tikz', width=6.5, height=4)
-p.fixed
-dev.off()
+#tikz('~/PartialControl/analysis/plots/filtered.tikz', width=6.5, height=4)
+#p.fixed
+#dev.off()
 
 ################
 # random effects
@@ -357,9 +357,9 @@ p.random <- ggplot(verb.collective.random.effects,
             scale_x_discrete(name='')
 
 ## write the "rating variability" to a TikZ file
-tikz('~/PartialControl/analysis/plots/variability.tikz', width=6.5, height=4)
-p.random
-dev.off()
+#tikz('~/PartialControl/analysis/plots/variability.tikz', width=6.5, height=4)
+#p.random
+#dev.off()
 
 
 ##################

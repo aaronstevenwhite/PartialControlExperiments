@@ -28,7 +28,7 @@ dependencies <- c("ggplot2", "plyr", "reshape", "MASS", "MCMCglmm", "randomFores
 install.packages(dependencies)
 ```
 
-If you would like to rerun the entire analysis, you can execute the following at the R interactive prompt:
+If you would like to rerun the entire analysis, you can execute the following at the R interactive prompt while in **analysis/**:
 
 ```
 source("sub_proceedings_analysis.R")    
@@ -36,7 +36,7 @@ source("sub_proceedings_analysis.R")
 
 Note that the model fitting and tuning functions can take hours to terminate, so you may want to run the script piecemeal. You may also need to change the root directory at line 49, depending on where you extracted the project to.
 
-This script generates plots by writing them to a TikZ file. These plots can be found in **plots/**. The package for doing this is called [`tikzDevice`](https://r-forge.r-project.org/projects/tikzdevice/), which sadly is no longer available on [CRAN](http://cran.us.r-project.org/) (for R > 3.0). If you would like to regenerate the TikZ files, you will need to install `tikzDevice` from source.
+This script generates plots by writing them to a TikZ file. These plots can be found in **plots/**. The package for doing this is called [`tikzDevice`](https://r-forge.r-project.org/projects/tikzdevice/), which sadly is no longer available on [CRAN](http://cran.us.r-project.org/) (for R > 3.0). By default, the lines that open a tikzDevice are commented out. If you would like to regenerate the TikZ files, you will need to install `tikzDevice` from source and uncomment those lines. 
 
 ### paper/
 
