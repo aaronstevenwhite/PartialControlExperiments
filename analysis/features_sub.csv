@@ -1,0 +1,31 @@
+verb	transparency	attitudinality	telicity	tense	simultaneity	truth	speech	nominal	complement	syntclass	ecm	NP	forcomp
+began to	transparent	nonattitudinal	telic	none	simultaneous	neither	F	F	to	V	F	F	F
+deserved to	opaque	nonattitudinal	atelic	future	nonsimultaneous	neither	F	F	to	V	F	F	F
+was likely to	opaque	nonattitudinal	atelic	none	simultaneous	neither	F	F	to	A	F	F	F
+needed to	opaque	nonattitudinal	atelic	future	nonsimultaneous	neither	F	T	to	V	T	F	T
+tried to	transparent	attitudinal	atelic	none	simultaneous	neither	F	F	to	V	F	F	F
+managed to	transparent	attitudinal	telic	none	simultaneous	implicative	F	F	to	V	F	F	F
+remembered to	transparent	attitudinal	telic	none	simultaneous	implicative	F	F	to	V	T	F	F
+claimed to	opaque	attitudinal	telic	none	simultaneous	neither	T	T	to	V	T	F	F
+pretended to	opaque	attitudinal	atelic	none	simultaneous	neither	F	F	to	V	F	F	F
+liked -ing	transparent	attitudinal	atelic	none	simultaneous	factive	F	T	ing	V	T	F	F
+loved -ing	transparent	attitudinal	atelic	none	simultaneous	factive	F	T	ing	V	T	F	F
+hated -ing	transparent	attitudinal	atelic	none	simultaneous	factive	F	T	ing	V	T	F	F
+remembered -ing	transparent	attitudinal	atelic	past	nonsimultaneous	factive	F	T	ing	V	T	F	F
+regretted -ing	transparent	attitudinal	atelic	past	nonsimultaneous	factive	F	T	ing	V	T	F	F
+liked to	transparent	attitudinal	atelic	none	simultaneous	factive	F	F	to	V	F	F	T
+loved to	transparent	attitudinal	atelic	none	simultaneous	factive	F	F	to	V	F	F	T
+hated to	transparent	attitudinal	atelic	none	simultaneous	factive	F	F	to	V	F	F	T
+wanted to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	F	to	V	T	F	T
+hoped to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	F	to	V	F	F	T
+intended to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	T	to	V	T	F	T
+decided to	opaque	attitudinal	telic	future	nonsimultaneous	neither	F	T	to	V	F	F	F
+planned to	opaque	attitudinal	telic	future	nonsimultaneous	neither	F	T	to	V	T	F	T
+was eager to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	T	to	A	F	F	T
+refused to	opaque	attitudinal	telic	future	nonsimultaneous	implicative	F	T	to	V	F	F	F
+was afraid to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	F	to	A	F	F	T
+preferred to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	T	to	V	T	F	T
+was ready to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	T	to	A	F	F	T
+expected to	opaque	attitudinal	atelic	future	nonsimultaneous	neither	F	F	to	V	T	T	T
+promised to	opaque	attitudinal	telic	future	nonsimultaneous	neither	T	T	to	V	F	T	F
+offered to	opaque	attitudinal	telic	future	nonsimultaneous	neither	T	T	to	V	F	T	F
